@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/CSS/Task2.css">
+</head>
+
+<body>
+  <div>
+    <div id="Reg">
+      <img src="/CSS/air-calibre-systems-coimbatore-logo-120x120.jpg" alt="Company logo">
+      <h2 style="text-align: center;">AIR CALIBRE SYSTEMS</h2>
+    
+
+      <br>
+      <div class="Main">
+     <form>
+      <div class="form-row">
+          <div class="form-group col-md-5">
+            <label for="Name" id="header">Employee NAME</label>
+            <select id="name" onchange="getOption()" type="text" class="form-control" placeholder="Please Enter Employee Name...">
+              <option selected>Please Enter Employee Name...</option>
+              <option >KANNAN</option>
+              <option >SIVALINGAM</option>
+              <option >VIMAL</option>
+              <option >BALRAJ</option>
+              <option >YOGESH</option>
+            </select>
+          </div>
+          <div class="form-group col-md-3">
+            <label for="taskid" id="header">Task ID</label>
+            <input type="number" class="form-control" id="taski">
+          </div>
+        </div>
+        <div class="form-group col-md-7 ">
+          <label for="taskname" id="header">Task Name</label>
+          <input type="text" class="form-control" id="taskn" placeholder="What you learn..">
+        </div>
+        <div class="form-group col-md-7">
+          <label for="taskd" id="header">Task Discription</label>
+          <input type="text" class="form-control" id="taskd" placeholder="What is the main thing?">
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-3">
+            <label for="date" id="header">Date</label>
+            <input type="date" class="form-control" id="date">
+          </div>
+          <div class="form-group col-md-4">
+            <label for="inputTime" id="header">Start Time</label>
+            <select type="time" id="itime" class="form-control">
+              <option selected>Please select time</option>
+                    <option>09:00 Am</option>
+                    <option>10:00 Am</option>
+                    <option>11:00 Am</option>
+                    <option>12:00 Pm</option>
+                    <option>01:00 Pm</option>
+                    <option>02:00 Pm</option>
+                    <option>03:00 Pm</option>
+                    <option>04:00 Pm</option>
+                    <option>05:00 Pm</option>
+                    <option>06:00 Pm</option>
+            </select>
+          </div>
+          <div class="form-group col-md-4">
+            <label for="outputTime" id="header">End Time</label>
+            <select type="time" id="otime" class="form-control">
+              <option selected>Please select time</option>
+                    <option>09:00 Am</option>
+                    <option>10:00 Am</option>
+                    <option>11:00 Am</option>
+                    <option>12:00 Pm</option>
+                    <option>01:00 Pm</option>
+                    <option>02:00 Pm</option>
+                    <option>03:00 Pm</option>
+                    <option>04:00 Pm</option>
+                    <option>05:00 Pm</option>
+                    <option>06:00 Pm</option>
+            </select>
+          </div>
+        </div>
+    
+        <button type="submit" onclick="saveData()" class="btn btn-primary">Submit</button>
+        <button type="Reset" onclick="saveData()" class="btn btn-primary">Reset</button>
+      </form>
+    </div>
+
+    </div>
+  </div>
+
+    
+    
+
+      
+      
+
+      
+
+
+
+
+
+
+      <script src="/JAVASCRIPT/Task2.js"></script>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+</body>
+</html>

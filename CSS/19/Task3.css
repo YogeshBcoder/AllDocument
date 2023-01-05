@@ -1,0 +1,65 @@
+#Main{
+    /* border: 1px solid black; */
+    margin-left: 20px;
+    background-color: aliceblue;
+}
+#header {
+    display: flex;
+
+    
+  }
+.info{
+    list-style: none;
+    height: 100px;
+   
+}
+.list{.
+    list-style: none;
+  }
+  
+.list li::before {
+    content: "\2022";
+    color: rgb(19, 200, 212);
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1.2em;
+  }
+#firstimage{
+    margin-left: 50px;
+ 
+}
+.dummy ul{
+    list-style: none;
+}
+#Button Button{
+
+    border-color: aliceblue;
+    color: rgb(20, 24, 24);
+  
+}
+.Line h1{
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+}
+h5{
+    background-color: rgb(151, 206, 238);
+}
+.sam i{
+    color: rgb(99, 207, 207);
+    
+}
+.sam ul li{
+    display: inline-flex;
+    word-spacing: 30px;
+}
+#Font ul li{
+    background-color: rgb(151, 206, 238);
+    list-style: none;
+    display: inline-flex
+}
+#Font ul .Font{
+    background-color: rgb(70, 123, 223);
+    color: whitesmoke;
+}

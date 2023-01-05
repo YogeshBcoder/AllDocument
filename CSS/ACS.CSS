@@ -1,0 +1,114 @@
+#Firstcontent h1{
+    font-weight: bolder;
+    color: rgb(206, 141, 22);
+}
+#Firstcontent h5{
+    color: rgb(17, 17, 17);
+}
+#Firstcontent{
+    margin-bottom: 200px;  
+}
+#Firstcontent .btn {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(60, 63, 63);
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+    text-align: center;
+}
+#Firstcontent .Head{
+    color: rgb(48, 9, 44);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+  
+#Firstcontent .btn:hover {
+    background-color: rgb(206, 141, 22);
+  }
+
+#Seccontent h1{
+    font-weight: bolder;
+    color: rgb(206, 141, 22);
+}
+#Seccontent h5{
+    color: rgb(17, 17, 17);
+}
+#Seccontent{
+    margin-bottom: 200px;  
+}
+#Seccontent .btn {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(60, 63, 63);
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+  
+#Seccontent .btn:hover {
+    background-color: rgb(206, 141, 22);
+  }
+
+#About{
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 2%;
+  }
+.card-group{
+    column-gap: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    column-fill: balance;
+    text-align: center;
+}
+#Content{
+    text-align: center;
+}
+#Validation{
+    column-fill: balance;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#Service{
+    display: flex; 
+}
+#Service .fir{
+    width: 33%;
+}
+#Service .sec{
+    width: 33%;
+}
+#Service .third{
+    width: 33%;
+}
+
+#Contact{
+    display: flex;
+    
+}
+#Contact .fir{
+    width: 33%;
+}
+#Contact .sec{
+    width: 33%;
+}
+#Contact .third{
+    width: 33%;
+}
+.contactus button{
+                text-align: center;
+}
